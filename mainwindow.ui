@@ -32,9 +32,6 @@
      <height>381</height>
     </size>
    </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: #88BCBC;</string>
-   </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <property name="spacing">
      <number>1</number>
@@ -72,10 +69,6 @@
           <pointsize>13</pointsize>
           <underline>false</underline>
          </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: #88BCBC;
-</string>
         </property>
         <property name="currentIndex">
          <number>0</number>
@@ -191,10 +184,6 @@
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: rgb(0, 220, 0);
-background-color: rgb(35, 35, 35);</string>
-                 </property>
                  <property name="lineWidth">
                   <number>1</number>
                  </property>
@@ -230,12 +219,10 @@ background-color: rgb(35, 35, 35);</string>
                   <string notr="true">QSlider::groove:horizontal {
     border: 3px solid #0000FF;
     height: 28px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
-    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #BCBCBC, stop:1 #c9c9c9);
     margin: 0px 0;
 }
 
 QSlider::handle:horizontal {
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
     border: 2px solid #5c5c5c;
     width: 35px;
     height: 27px;
@@ -349,9 +336,8 @@ QSlider::handle:vertical {
                 </font>
                </property>
                <property name="styleSheet">
-                <string notr="true">color: rgb(255, 255, 255);
+                <string notr="true">
 font: 11pt &quot;Monospace&quot;;
-background-color: rgb(0, 85, 127);
 </string>
                </property>
                <property name="frameShape">
@@ -411,7 +397,7 @@ background-color: rgb(0, 85, 127);
                 </size>
                </property>
                <property name="styleSheet">
-                <string notr="true">background-color: rgba(255, 255, 255, 180);
+                <string notr="true">
 font: 11pt &quot;Sans Serif&quot;;</string>
                </property>
                <property name="text">
@@ -522,8 +508,7 @@ font: 11pt &quot;Sans Serif&quot;;</string>
               <property name="styleSheet">
                <string notr="true">font: 14pt &quot;Sans Serif&quot;;
 border-width: 4px;
-background: rgb(183, 77, 77);
-color: rgb(255, 255, 255);</string>
+</string>
               </property>
               <property name="text">
                <string>RX</string>
@@ -567,9 +552,7 @@ color: rgb(255, 255, 255);</string>
               </property>
               <property name="styleSheet">
                <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-border-width: 4px;
-background: rgb(183, 77, 77);
-color: rgb(255, 255, 255);</string>
+border-width: 4px;</string>
               </property>
               <property name="text">
                <string>TX</string>
@@ -601,8 +584,6 @@ color: rgb(255, 255, 255);</string>
               </property>
               <property name="styleSheet">
                <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-color: rgb(203, 0, 0);
-background: none;
 </string>
               </property>
               <property name="text">
@@ -629,11 +610,6 @@ background: none;
                 <width>120</width>
                 <height>64</height>
                </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">font: 12pt &quot;Sans Serif&quot;;
-color: rgb(255, 255, 255);
-background-color: rgb(132, 0, 0);</string>
               </property>
               <property name="text">
                <string>Close</string>
@@ -662,9 +638,8 @@ background-color: rgb(132, 0, 0);</string>
               </property>
               <property name="styleSheet">
                <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-border-width: 4px;
-background-color: rgb(0, 67, 98);
-color: rgb(255, 255, 255);</string>
+               border-width: 4px;
+               </string>
               </property>
               <property name="text">
                <string>Repeater</string>
@@ -753,10 +728,6 @@ color: rgb(255, 255, 255);</string>
                  <height>40</height>
                 </size>
                </property>
-               <property name="styleSheet">
-                <string notr="true">color: rgb(0, 85, 127);
-background-color: rgb(35, 35, 35);</string>
-               </property>
                <property name="lineWidth">
                 <number>1</number>
                </property>
@@ -795,12 +766,10 @@ background-color: rgb(35, 35, 35);</string>
                 <string notr="true">QSlider::groove:horizontal {
     border: 3px solid #0000FF;
     height: 28px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
-    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #FF0033, stop:1 #c9c9c9);
     margin: 0px 0;
 }
 
 QSlider::handle:horizontal {
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
     border: 2px solid #5c5c5c;
     width: 35px;
     height: 27px;
@@ -908,10 +877,6 @@ QSlider::handle:vertical {
                 <height>40</height>
                </size>
               </property>
-              <property name="styleSheet">
-               <string notr="true">color: rgb(255, 0, 0);
-background-color: rgb(35, 35, 35);</string>
-              </property>
               <property name="lineWidth">
                <number>1</number>
               </property>
@@ -947,12 +912,10 @@ background-color: rgb(35, 35, 35);</string>
                <string notr="true">QSlider::groove:horizontal {
     border: 3px solid #0000FF;
     height: 28px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
-    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #BCBCBC, stop:1 #c9c9c9);
     margin: 0px 0;
 }
 
 QSlider::handle:horizontal {
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
     border: 2px solid #5c5c5c;
     width: 35px;
     height: 29px;
@@ -1030,8 +993,7 @@ QSlider::handle:vertical {
                </size>
               </property>
               <property name="styleSheet">
-               <string notr="true">font: 35pt &quot;Sans Serif&quot;;
-background-color: rgb(0, 0, 230,130);</string>
+               <string notr="true">font: 35pt &quot;Sans Serif&quot;;</string>
               </property>
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
@@ -1084,7 +1046,7 @@ background-color: rgb(0, 0, 230,130);</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(255, 255, 255, 180);
+               <string notr="true">
 font: 13pt &quot;Sans Serif&quot;;</string>
               </property>
               <property name="text">
@@ -1203,10 +1165,6 @@ font: 13pt &quot;Sans Serif&quot;;</string>
                  <height>40</height>
                 </size>
                </property>
-               <property name="styleSheet">
-                <string notr="true">color: rgb(0, 85, 127);
-background-color: rgb(35, 35, 35);</string>
-               </property>
                <property name="lineWidth">
                 <number>1</number>
                </property>
@@ -1242,12 +1200,10 @@ background-color: rgb(35, 35, 35);</string>
                 <string notr="true">QSlider::groove:horizontal {
     border: 3px solid #0000FF;
     height: 28px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
-    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #FF0033, stop:1 #c9c9c9);
     margin: 0px 0;
 }
 
 QSlider::handle:horizontal {
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
     border: 2px solid #5c5c5c;
     width: 35px;
     height: 27px;
@@ -1372,9 +1328,7 @@ QSlider::handle:vertical {
                </size>
               </property>
               <property name="styleSheet">
-               <string notr="true">font: 10pt &quot;Sans Serif&quot;;
-background: none;
-color: rgb(203, 0, 0);</string>
+               <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
               </property>
               <property name="text">
                <string>Autotune</string>
@@ -1402,12 +1356,10 @@ color: rgb(203, 0, 0);</string>
                <string notr="true">QSlider::groove:horizontal {
     border: 3px solid #0000FF;
     height: 38px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #FF3407, stop:1 #B60AFF);
     margin: 2px 0;
 }
 
 QSlider::handle:horizontal {
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 green, stop:1 #8f8f8f);
     border: 2px solid #000000;
     width: 35px;
     height: 39px;
@@ -1518,13 +1470,6 @@ QSlider::handle:horizontal {
                <bold>false</bold>
               </font>
              </property>
-             <property name="styleSheet">
-              <string notr="true">font: 10pt &quot;Sans Serif&quot;;
-color: rgb(240, 240, 119);
-background-color: rgb(0, 0, 67);
-
-</string>
-             </property>
              <layout class="QGridLayout" name="gridLayout_7">
               <property name="sizeConstraint">
                <enum>QLayout::SetNoConstraint</enum>
@@ -1564,9 +1509,7 @@ background-color: rgb(0, 0, 67);
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">background: transparent;
-background-color: rgba(255, 255, 255, 180);
-font: 12pt &quot;Sans Serif&quot;;
+             <string notr="true">font: 12pt &quot;Sans Serif&quot;;
 </string>
             </property>
            </widget>
@@ -1580,9 +1523,7 @@ font: 12pt &quot;Sans Serif&quot;;
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">background: transparent;
-background-color: rgb(255, 255, 255, 180);
-font: 12pt &quot;Sans Serif&quot;;
+             <string notr="true">font: 12pt &quot;Sans Serif&quot;;
 </string>
             </property>
             <property name="textInteractionFlags">
@@ -1608,9 +1549,6 @@ font: 12pt &quot;Sans Serif&quot;;
               </property>
               <property name="styleSheet">
                <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-background: none;
-color: rgb(203, 0, 0);
-
 </string>
               </property>
               <property name="text">
@@ -1653,8 +1591,6 @@ background: none;
               </property>
               <property name="styleSheet">
                <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-background: none;
-color: rgb(203, 0, 0);
 </string>
               </property>
               <property name="text">
@@ -1708,10 +1644,6 @@ color: rgb(203, 0, 0);
                <width>480</width>
                <height>360</height>
               </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">border-color: rgb(255, 255, 0);
-background-color: rgb(85, 85, 255);</string>
              </property>
              <property name="frameShape">
               <enum>QFrame::Panel</enum>
@@ -1767,8 +1699,7 @@ background-color: rgb(85, 85, 255);</string>
             <property name="styleSheet">
              <string notr="true">font: 14pt &quot;Sans Serif&quot;;
 border-width: 4px;
-color: rgb(255, 255, 255);
-background-color: rgb(85, 85, 127);</string>
+</string>
             </property>
             <property name="text">
              <string>Use PTT for VOIP</string>
@@ -1794,7 +1725,7 @@ background-color: rgb(85, 85, 127);</string>
           <item row="0" column="0">
            <widget class="QLineEdit" name="voipServerEdit">
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);
+             <string notr="true">
 font: 14pt &quot;Sans Serif&quot;;</string>
             </property>
             <property name="text">
@@ -1805,10 +1736,7 @@ font: 14pt &quot;Sans Serif&quot;;</string>
           <item row="0" column="1">
            <widget class="QPushButton" name="voipConnectButton">
             <property name="styleSheet">
-             <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-background: none;
-background-color: rgb(0, 50, 0);
-color: rgb(255, 255, 255);</string>
+              <string notr="true">font: 14pt &quot;Sans Serif&quot;;</string>
             </property>
             <property name="text">
              <string>Connect</string>
@@ -1819,9 +1747,7 @@ color: rgb(255, 255, 255);</string>
            <widget class="QPushButton" name="voipDisconnectButton">
             <property name="styleSheet">
              <string notr="true">font: 14pt &quot;Sans Serif&quot;;
-background: none;
-background-color: rgb(127, 0, 0);
-color: rgb(255, 255, 255);</string>
+</string>
             </property>
             <property name="text">
              <string>Disconnect</string>
@@ -1846,8 +1772,7 @@ color: rgb(255, 255, 255);</string>
             <property name="styleSheet">
              <string notr="true">font: 14pt &quot;Sans Serif&quot;;
 border-width: 4px;
-color: rgb(255, 255, 255);
-background-color: rgb(85, 85, 127);</string>
+</string>
             </property>
             <property name="text">
              <string>Forward radio</string>
@@ -1876,16 +1801,14 @@ background-color: rgb(85, 85, 127);</string>
            <item row="3" column="1">
             <widget class="QLineEdit" name="lineEditTXAntenna">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
            <item row="7" column="0">
             <widget class="QPushButton" name="saveOptionsButton">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 18pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 18pt &quot;Sans Serif&quot;;</string>
              </property>
              <property name="text">
               <string>Save</string>
@@ -1902,16 +1825,14 @@ font: 18pt &quot;Sans Serif&quot;;</string>
            <item row="4" column="1">
             <widget class="QLineEdit" name="lineEditRXAntenna">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
            <item row="0" column="1">
             <widget class="QLineEdit" name="lineEditRXDev">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
@@ -1925,8 +1846,7 @@ font: 10pt &quot;Sans Serif&quot;;</string>
            <item row="1" column="1">
             <widget class="QLineEdit" name="lineEditTXDev">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
@@ -1954,8 +1874,7 @@ font: 10pt &quot;Sans Serif&quot;;</string>
            <item row="0" column="3">
             <widget class="QLineEdit" name="lineEditCallsign">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
@@ -1976,24 +1895,21 @@ font: 10pt &quot;Sans Serif&quot;;</string>
            <item row="1" column="3">
             <widget class="QLineEdit" name="lineEditRXFreqCorrection">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
            <item row="3" column="3">
             <widget class="QLineEdit" name="lineEditTXFreqCorrection">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
            <item row="4" column="3">
             <widget class="QLineEdit" name="lineEditVideoDevice">
              <property name="styleSheet">
-              <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Sans Serif&quot;;</string>
+              <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
              </property>
             </widget>
            </item>
@@ -2027,9 +1943,6 @@ font: 10pt &quot;Sans Serif&quot;;</string>
             <width>300</width>
             <height>33</height>
            </size>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(191, 201, 235);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -2149,7 +2062,7 @@ font: 10pt &quot;Sans Serif&quot;;</string>
             </property>
             <property name="styleSheet">
              <string notr="true">font: 12pt &quot;Sans Serif&quot;;
-color: rgb(0, 0, 83);</string>
+</string>
             </property>
             <property name="text">
              <string>RX</string>
@@ -2256,8 +2169,7 @@ color: rgb(0, 0, 83);</string>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">font: 12pt &quot;Sans Serif&quot;;
-color: rgb(125, 0, 0);</string>
+             <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
             </property>
             <property name="text">
              <string>TX</string>
